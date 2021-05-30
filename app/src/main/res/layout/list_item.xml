@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:id="@+id/patientCard"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/patientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/placeholder"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/patientManifestation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/patientName"
+            android:padding="10dp"
+            android:text="@string/placeholder"/>
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/placeholder"
+            android:layout_below="@+id/patientManifestation" />
+        <TextView
+            android:id="@+id/substance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/placeholder"
+            android:layout_below="@+id/type" />
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:layout_below="@+id/substance"/>
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@id/buttonUpdate"
+            android:layout_below="@id/substance"
+            android:layout_toRightOf="@id/buttonUpdate" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

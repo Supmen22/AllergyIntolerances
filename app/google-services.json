@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "836811262977",
+    "project_id": "allergyintolerances",
+    "storage_bucket": "allergyintolerances.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836811262977:android:efb7eb7a092b0aa974c400",
+        "android_client_info": {
+          "package_name": "com.example.allergyintolerances"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836811262977-deds589vijah9u080ngtt5qd76an0obr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.allergyintolerances",
+            "certificate_hash": "3d005ef29025b084b35dac6be3746ed96b1bdf33"
+          }
+        },
+        {
+          "client_id": "836811262977-bh38mdualf6k7ss0qbo93cm4h5au390i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz8FCz_7kYGvabsdLn4f5UQm5m1S7hTHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836811262977-bh38mdualf6k7ss0qbo93cm4h5au390i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="allergy_item_patient">
+        <item>Sanyi</item>
+        <item>Pisti</item>
+        <item>Béla</item>
+        <item>Ádám</item>
+        <item>Sebi</item>
+        <item>Dávidd</item>
+    </string-array>
+
+    <string-array name="allergy_item_manifest">
+        <item>tüsszögés</item>
+        <item>orrfolyás</item>
+        <item>szemviszketés</item>
+        <item>tüsszögés</item>
+        <item>orrfolyás</item>
+        <item>szemviszketés</item>
+    </string-array>
+
+    <string-array name="allergy_item_substance">
+        <item>tej</item>
+        <item>pollen</item>
+        <item>karfiol</item>
+        <item>kutyaszőr</item>
+        <item>por</item>
+        <item>antibiotikum</item>
+    </string-array>
+
+    <string-array name="allergy_item_type">
+        <item>allergia</item>
+        <item>allergia</item>
+        <item>intolerancia</item>
+        <item>allergia</item>
+        <item>intolerancia</item>
+        <item>gyógyszerallergia</item>
+    </string-array>
+
+</resources>
